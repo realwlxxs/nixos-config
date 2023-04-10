@@ -75,7 +75,7 @@
     ripgrep
     htop
     sqlite
-    texlive.combined.scheme-medium
+    texlive.combined.scheme-full
     (python3.withPackages
       (ps: with ps; [ pandas black pyflakes isort tkinter ]))
     nodejs
