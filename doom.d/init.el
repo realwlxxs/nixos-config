@@ -12,6 +12,7 @@
        (magit +forge)
        :lang
        (org +roam2)
+       (latex +lsp)
        emacs-lisp
        nix
        (python +lsp +pyright)
