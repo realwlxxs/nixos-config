@@ -80,6 +80,7 @@
       (ps: with ps; [ pandas black pyflakes isort tkinter ]))
     nodejs
     xclip
+    godot
   ];
 
   environment.variables = {
