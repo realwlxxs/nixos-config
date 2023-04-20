@@ -77,10 +77,11 @@
     sqlite
     texlive.combined.scheme-full
     (python3.withPackages
-      (ps: with ps; [ pandas black pyflakes isort tkinter gdtoolkit ]))
+      (ps: with ps; [ pandas black pyflakes isort tkinter ]))
     nodejs
     xclip
     godot
+    gdtoolkit
   ];
 
   environment.variables = {
