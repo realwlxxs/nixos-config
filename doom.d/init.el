@@ -18,6 +18,7 @@
        (python +lsp +pyright)
        web
        (javascript +lsp)
+       (gdscript +lsp)
        :emacs
        tramp
        :ui

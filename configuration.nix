@@ -77,7 +77,7 @@
     sqlite
     texlive.combined.scheme-full
     (python3.withPackages
-      (ps: with ps; [ pandas black pyflakes isort tkinter ]))
+      (ps: with ps; [ pandas black pyflakes isort tkinter gdtoolkit ]))
     nodejs
     xclip
     godot
