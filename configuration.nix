@@ -82,6 +82,11 @@
     xclip
     godot
     gdtoolkit
+    gnumake
+    cmake
+    cmake-language-server
+    gcc
+    ccls
   ];
 
   environment.variables = {

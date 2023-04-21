@@ -19,6 +19,7 @@
        web
        (javascript +lsp)
        (gdscript +lsp)
+       (cc +lsp)
        :emacs
        tramp
        :ui
