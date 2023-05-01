@@ -51,10 +51,11 @@
   users.defaultUserShell = pkgs.zsh;
   users.users.wlxxs = {
     isNormalUser = true;
-    extraGroups = [ "wheel" "networkmanager" "audio" "video" ];
+    extraGroups = [ "wheel" "networkmanager" "audio" "video" "libvirtd" ];
   };
 
   environment.systemPackages = with pkgs; [
+    virt-manager
     neofetch
     alacritty
     dmenu
@@ -94,6 +95,9 @@
     QT_IM_MODULE = "ibus";
     XMODIFIERS = "@im=ibus";
   };
+
+  virtualisation.libvirtd.enable = true;
+  programs.dconf.enable = true;
 
   programs.slock.enable = true;
 
