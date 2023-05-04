@@ -77,8 +77,17 @@
     htop
     sqlite
     texlive.combined.scheme-full
-    (python3.withPackages
-      (ps: with ps; [ pandas black pyflakes isort tkinter matplotlib jieba ]))
+    (python3.withPackages (ps:
+      with ps; [
+        pip
+        pandas
+        black
+        pyflakes
+        isort
+        tkinter
+        matplotlib
+        jieba
+      ]))
     nodejs
     xclip
     godot
