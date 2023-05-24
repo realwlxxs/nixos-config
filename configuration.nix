@@ -96,8 +96,12 @@
     cmake
     cmake-language-server
     gcc
+    man-pages
+    man-pages-posix
     ccls
   ];
+
+  documentation.dev.enable = true;
 
   environment.variables = {
     GTK_IM_MODULE = "ibus";
