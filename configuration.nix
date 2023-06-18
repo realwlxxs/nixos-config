@@ -54,11 +54,11 @@
   };
 
   environment.systemPackages = with pkgs; [
+    st
     plan9port
     sxhkd
     virt-manager
     neofetch
-    alacritty
     dmenu
     picom
     starship
