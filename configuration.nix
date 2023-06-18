@@ -39,7 +39,6 @@
   services.xserver.enable = true;
   services.xserver.excludePackages = [ pkgs.xterm ];
   services.xserver.displayManager.startx.enable = true;
-  services.xserver.windowManager.dwm.enable = true;
 
   services.xserver.layout = "us";
 
@@ -55,6 +54,8 @@
   };
 
   environment.systemPackages = with pkgs; [
+    plan9port
+    sxhkd
     virt-manager
     neofetch
     alacritty

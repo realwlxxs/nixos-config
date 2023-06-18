@@ -8,4 +8,5 @@ fi
 
 exec ibus-daemon -drx &
 exec picom &
-exec dwm
+exec sxhkd &
+9 rio

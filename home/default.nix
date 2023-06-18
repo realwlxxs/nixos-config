@@ -1,5 +1,6 @@
 {
   home = {
+    file.".config/sxhkd/sxhkdrc".source = ./sxhkdrc;
     file.".config/picom/picom.conf".source = ./picom.conf;
     file.".config/alacritty/alacritty.yml".source = ./alacritty.yml;
     file.".gitconfig".source = ./.gitconfig;
