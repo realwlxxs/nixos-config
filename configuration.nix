@@ -60,7 +60,7 @@
     sxhkd
     virt-manager
     neofetch
-    dmenu
+    fzy
     picom
     starship
     zoxide
