@@ -54,6 +54,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    ranger
     st
     plan9port
     sxhkd
@@ -64,7 +65,6 @@
     starship
     zoxide
     mcfly
-    mc
     firefox-esr
     thunderbird
     qbittorrent
