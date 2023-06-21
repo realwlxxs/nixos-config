@@ -71,7 +71,6 @@
     mpv
     zathura
     imagemagick
-    cmus
     nixfmt
     ripgrep
     htop
