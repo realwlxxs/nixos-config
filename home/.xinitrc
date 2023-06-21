@@ -9,5 +9,5 @@ fi
 exec ibus-daemon -drx &
 exec picom &
 exec sxhkd &
-9 stats &
+9 stats -Cm &
 9 rio
