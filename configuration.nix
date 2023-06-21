@@ -56,7 +56,7 @@
   environment.systemPackages = with pkgs; [
     catclock
     ranger
-    st
+    mlterm
     plan9port
     sxhkd
     virt-manager
