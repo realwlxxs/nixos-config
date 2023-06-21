@@ -73,6 +73,7 @@
     mpv
     zathura
     imagemagick
+    ffmpeg
     nixfmt
     ripgrep
     htop
