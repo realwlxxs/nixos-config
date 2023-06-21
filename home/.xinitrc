@@ -9,4 +9,5 @@ fi
 exec ibus-daemon -drx &
 exec sxhkd &
 9 stats -Cm &
+exec xclock &
 9 rio -grey

@@ -54,6 +54,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    catclock
     ranger
     st
     plan9port
