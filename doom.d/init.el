@@ -22,7 +22,5 @@
        :emacs
        tramp
        :ui
-       doom
-       doom-dashboard
        modeline
        (treemacs +lsp))
