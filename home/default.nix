@@ -1,7 +1,6 @@
 {
   home = {
     file.".config/sxhkd/sxhkdrc".source = ./sxhkdrc;
-    file.".config/picom/picom.conf".source = ./picom.conf;
     file.".gitconfig".source = ./.gitconfig;
     file.".xinitrc".source = ./.xinitrc;
     file.".zshrc".source = ./.zshrc;

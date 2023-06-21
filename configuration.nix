@@ -61,7 +61,6 @@
     virt-manager
     neofetch
     fzy
-    picom
     starship
     zoxide
     mcfly

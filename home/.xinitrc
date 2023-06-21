@@ -7,7 +7,6 @@ if command -v dbus-update-activation-environment >/dev/null 2>&1; then
 fi
 
 exec ibus-daemon -drx &
-exec picom &
 exec sxhkd &
 9 stats -Cm &
-9 rio
+9 rio -grey
