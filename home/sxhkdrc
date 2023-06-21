@@ -1,2 +1,2 @@
 super + r
-      mlterm --sbmod=none
+      mlterm --sbmod=none --bg=black --fg=white
