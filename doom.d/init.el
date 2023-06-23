@@ -20,6 +20,7 @@
        (gdscript +lsp)
        (cc +lsp)
        :emacs
+       (dired +icons +ranger)
        tramp
        :ui
        modeline
