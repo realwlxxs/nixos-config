@@ -9,5 +9,5 @@ fi
 exec ibus-daemon -drx &
 exec sxhkd &
 9 stats -Cm &
-exec xclock -mode cat -hd red -hl blue -catcolor blue -detailcolor yellow -tiecolor purple &
+exec xclock -mode cat -hd red &
 9 rio -grey
