@@ -56,7 +56,7 @@
   environment.systemPackages = with pkgs; [
     gnuapl
     catclock
-    ranger
+    lf
     mlterm
     plan9port
     sxhkd
