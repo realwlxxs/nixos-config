@@ -54,6 +54,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    j4-dmenu-desktop
     gnuapl
     catclock
     lf

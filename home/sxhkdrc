@@ -1,2 +1,5 @@
-super + r
+super + t
       mlterm --sbmod=none --bg=black --fg=white
+
+super + r
+      j4-dmenu-desktop
