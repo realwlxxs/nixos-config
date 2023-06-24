@@ -54,6 +54,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    xst
     file
     yt-dlp
     cmus
@@ -62,7 +63,6 @@
     gnuapl
     catclock
     lf
-    mlterm
     plan9port
     sxhkd
     virt-manager
