@@ -14,4 +14,5 @@ exec xclock -mode cat -hd red &
 
 9 stats -Cm &
 9 winwatch -n -f $font &
+9 acme -f $font &
 9 rio -grey
