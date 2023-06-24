@@ -62,7 +62,6 @@
     j4-dmenu-desktop
     gnuapl
     catclock
-    lf
     plan9port
     sxhkd
     virt-manager
