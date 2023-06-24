@@ -54,6 +54,8 @@
   };
 
   environment.systemPackages = with pkgs; [
+    cmus
+    cava
     j4-dmenu-desktop
     gnuapl
     catclock
