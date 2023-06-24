@@ -6,6 +6,8 @@ if command -v dbus-update-activation-environment >/dev/null 2>&1; then
     dbus-update-activation-environment DISPLAY XAUTHORITY
 fi
 
+xrdb ~/.Xresources
+
 export font=/mnt/font/Sarasa-Mono-Slab-SC-Regular/10a/font
 export visibleclicks=1
 
