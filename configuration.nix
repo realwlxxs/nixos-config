@@ -54,6 +54,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    youtube-dl
     cmus
     cava
     j4-dmenu-desktop
