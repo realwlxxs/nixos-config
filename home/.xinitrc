@@ -9,5 +9,6 @@ fi
 exec ibus-daemon -drx &
 exec sxhkd &
 9 stats -Cm &
+9 winwatch -n &
 exec xclock -mode cat -hd red &
 9 rio -grey
