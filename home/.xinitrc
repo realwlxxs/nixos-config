@@ -9,6 +9,6 @@ fi
 exec ibus-daemon -drx &
 exec sxhkd &
 9 stats -Cm &
-9 winwatch -n &
+9 winwatch -n -f /mnt/font/Sarasa-Mono-Slab-SC-Regular/10a/font &
 exec xclock -mode cat -hd red &
 9 rio -grey
