@@ -61,6 +61,7 @@
     cava
     j4-dmenu-desktop
     gnuapl
+    sbcl
     catclock
     plan9port
     sxhkd

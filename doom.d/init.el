@@ -1,6 +1,7 @@
 (doom! :editor
        (evil +everywhere)
        (format +onsave)
+       lispy
        :os
        tty
        :completion
@@ -12,6 +13,7 @@
        (magit +forge)
        :lang
        (latex +lsp)
+       common-lisp
        emacs-lisp
        nix
        (python +lsp +pyright)
