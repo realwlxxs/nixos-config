@@ -25,5 +25,4 @@
        (dired +icons +ranger)
        tramp
        :ui
-       modeline
        (treemacs +lsp))
