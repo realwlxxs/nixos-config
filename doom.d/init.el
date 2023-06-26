@@ -25,4 +25,5 @@
        (dired +icons +ranger)
        tramp
        :ui
-       (treemacs +lsp))
+       nav-flash
+       ophints)
