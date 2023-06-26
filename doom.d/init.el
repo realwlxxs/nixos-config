@@ -5,8 +5,8 @@
        :os
        tty
        :completion
-       (company +childframe)
-       (ivy +childframe +fuzzy +icons +prescient)
+       company
+       (ivy +fuzzy +icons +prescient)
        :tools
        lookup
        (lsp +peek)
