@@ -25,5 +25,6 @@
        (dired +icons +ranger)
        tramp
        :ui
+       (ligatures +extra)
        nav-flash
        ophints)
