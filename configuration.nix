@@ -72,6 +72,7 @@
     zoxide
     mcfly
     firefox-esr
+    tor-browser-bundle-bin
     thunderbird
     qbittorrent
     obs-studio
