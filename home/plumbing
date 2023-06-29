@@ -11,7 +11,6 @@ plumb to showmail
 plumb to web
 plumb to image
 plumb to postscript
-plumb to openoffice
 plumb to edit
 plumb to sendmail
 
@@ -40,12 +39,6 @@ data	matches	'([a-zA-Z¡-￿0-9_\-./@]+)\.(ps|PS|eps|EPS|pdf|PDF|dvi|DVI)'
 arg	isfile	$0
 plumb	to	postscript
 plumb	start	9 page $file
-
-data	matches	'[a-zA-Z¡-￿0-9_\-./@]+'
-data	matches	'([a-zA-Z¡-￿0-9_\-./@]+)\.([Ss][XxTt][CcDdIiGgMmWw]|[Dd][Oo][Cc]|[Xx][Ll][Ss]|[Pp][Pp][Tt])'
-arg	isfile	$0
-plumb	to	openoffice
-plumb	start	openoffice $file
 
 type	is	text
 data	matches	'([.a-zA-Z¡-￿0-9_/\-@]*[a-zA-Z¡-￿0-9_/\-])':$twocolonaddr,$twocolonaddr
