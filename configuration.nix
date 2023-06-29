@@ -54,6 +54,8 @@
   };
 
   environment.systemPackages = with pkgs; [
+    gzdoom
+    enyo-launcher
     xst
     file
     yt-dlp
