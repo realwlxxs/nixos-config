@@ -31,14 +31,14 @@ data	matches	'[a-zA-Z¡-￿0-9_\-./@]+'
 data	matches	'([a-zA-Z¡-￿0-9_\-./@]+)\.(jpe?g|JPE?G|gif|GIF|tiff?|TIFF?|ppm|bit|png|PNG)'
 arg	isfile	$0
 plumb	to	image
-plumb	start	9 page $file
+plumb	start	9 display $file
 
 type	is	text
 data	matches	'[a-zA-Z¡-￿0-9_\-./@]+'
 data	matches	'([a-zA-Z¡-￿0-9_\-./@]+)\.(ps|PS|eps|EPS|pdf|PDF|dvi|DVI)'
 arg	isfile	$0
 plumb	to	postscript
-plumb	start	9 page $file
+plumb	start	9 zathura $file
 
 type	is	text
 data	matches	'([.a-zA-Z¡-￿0-9_/\-@]*[a-zA-Z¡-￿0-9_/\-])':$twocolonaddr,$twocolonaddr
@@ -110,8 +110,8 @@ plumb	start	wmail $0
 dst	is	image
 arg	isfile	$data
 plumb	to	image
-plumb	start	9 page $data
+plumb	start	9 display $data
 
 dst	is	postscript
 arg	isfile	$data
-plumb	start	9 page $data
+plumb	start	9 zathura $data
