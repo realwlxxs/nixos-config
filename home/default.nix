@@ -1,6 +1,5 @@
 {
   home = {
-    file."plumbing".source = ./plumbing;
     file.".Xresources".source = ./.Xresources;
     file.".config/sxhkd/sxhkdrc".source = ./sxhkdrc;
     file.".gitconfig".source = ./.gitconfig;
