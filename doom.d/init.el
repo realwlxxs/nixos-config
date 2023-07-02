@@ -12,6 +12,7 @@
        (lsp +peek)
        (magit +forge)
        :lang
+       (erlang +lsp)
        (latex +lsp)
        common-lisp
        emacs-lisp

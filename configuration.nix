@@ -54,6 +54,9 @@
   };
 
   environment.systemPackages = with pkgs; [
+    erlang
+    rebar3
+    erlang-ls
     gzdoom
     enyo-launcher
     xst
