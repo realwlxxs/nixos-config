@@ -1,4 +1,5 @@
 (doom! :editor
+       snippets
        (evil +everywhere)
        (format +onsave)
        lispy
