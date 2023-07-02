@@ -24,9 +24,14 @@
        (javascript +lsp)
        (gdscript +lsp)
        (cc +lsp)
+       :checkers
+       syntax
        :emacs
+       (undo +tree)
        (dired +icons +ranger)
        tramp
        :ui
+       (popup +defaults)
+       vi-tilde-fringe
        nav-flash
        ophints)
