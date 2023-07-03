@@ -54,6 +54,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    swiProlog
     ghc
     cabal-install
     haskell-language-server
