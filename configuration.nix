@@ -68,12 +68,10 @@
     yt-dlp
     cmus
     cava
-    j4-dmenu-desktop
     gnuapl
     sbcl
     catclock
     cwm
-    sxhkd
     virt-manager
     neofetch
     fzy

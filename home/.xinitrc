@@ -9,6 +9,5 @@ fi
 xrdb ~/.Xresources
 
 exec ibus-daemon -drx &
-exec sxhkd &
 exec xclock -mode cat -hd red &
 exec cwm
