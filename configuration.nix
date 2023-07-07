@@ -54,6 +54,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    xvkbd
     swiProlog
     ghc
     cabal-install
