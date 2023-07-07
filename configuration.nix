@@ -72,7 +72,7 @@
     gnuapl
     sbcl
     catclock
-    plan9port
+    cwm
     sxhkd
     virt-manager
     neofetch

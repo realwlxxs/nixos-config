@@ -8,13 +8,7 @@ fi
 
 xrdb ~/.Xresources
 
-export font=/mnt/font/Sarasa-Mono-Slab-SC-Regular/10a/font
-export visibleclicks=1
-
 exec ibus-daemon -drx &
 exec sxhkd &
 exec xclock -mode cat -hd red &
-
-9 stats -Cm &
-9 winwatch -n -f $font &
-9 rio -grey
+exec cwm
