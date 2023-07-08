@@ -74,6 +74,7 @@
     sbcl
     catclock
     cwm
+    picom
     virt-manager
     neofetch
     fzy
