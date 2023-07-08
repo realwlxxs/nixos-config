@@ -31,6 +31,7 @@
        (dired +icons +ranger)
        tramp
        :ui
+       modeline
        (popup +defaults)
        vi-tilde-fringe
        nav-flash
