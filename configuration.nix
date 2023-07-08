@@ -54,6 +54,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    libreoffice-qt
     xvkbd
     swiProlog
     ghc
