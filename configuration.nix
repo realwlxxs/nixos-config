@@ -75,6 +75,7 @@
     catclock
     cwm
     picom
+    hsetroot
     virt-manager
     neofetch
     fzy
