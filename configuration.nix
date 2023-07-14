@@ -54,6 +54,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    zeal
     libreoffice-qt
     xvkbd
     swiProlog
