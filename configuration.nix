@@ -21,6 +21,7 @@
   fonts.fonts = with pkgs; [
     (nerdfonts.override { fonts = [ "Iosevka" ]; })
     sarasa-gothic
+    apl386
   ];
   fonts.enableDefaultFonts = true;
   fonts.fontconfig = {
