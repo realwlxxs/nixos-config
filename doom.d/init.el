@@ -12,6 +12,8 @@
        lookup
        (lsp +peek)
        (magit +forge)
+       :input
+       chinese
        :lang
        (haskell +lsp)
        (erlang +lsp)
