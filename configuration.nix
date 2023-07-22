@@ -55,6 +55,8 @@
   };
 
   environment.systemPackages = with pkgs; [
+    shellcheck
+    nodePackages.bash-language-server
     zeal
     libreoffice-qt
     xvkbd

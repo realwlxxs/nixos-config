@@ -15,6 +15,7 @@
        :input
        chinese
        :lang
+       (sh +lsp)
        (haskell +lsp)
        (erlang +lsp)
        (latex +lsp)
