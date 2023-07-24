@@ -15,6 +15,7 @@
        :input
        chinese
        :lang
+       (go +lsp)
        (sh +lsp)
        (haskell +lsp)
        (erlang +lsp)

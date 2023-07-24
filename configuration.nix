@@ -55,6 +55,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    go
     shellcheck
     nodePackages.bash-language-server
     zeal
