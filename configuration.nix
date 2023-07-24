@@ -55,7 +55,6 @@
   };
 
   environment.systemPackages = with pkgs; [
-    postgresql
     caddy
     go
     gopls
@@ -167,6 +166,8 @@
       doomPrivateDir = ./doom.d;
     };
   };
+
+  services.postgresql = { enable = true; };
 
   networking.firewall.enable = false;
 
