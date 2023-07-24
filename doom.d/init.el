@@ -15,6 +15,8 @@
        :input
        chinese
        :lang
+       (json +lsp)
+       rest
        (go +lsp)
        (sh +lsp)
        (haskell +lsp)
