@@ -55,6 +55,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    postgresql
     go
     gopls
     shellcheck
