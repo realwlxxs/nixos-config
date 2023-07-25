@@ -79,7 +79,6 @@
     cava
     gnuapl
     sbcl
-    catclock
     cwm
     picom
     hsetroot
