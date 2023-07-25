@@ -1,7 +1,6 @@
 {
   home = {
     file.".cwmrc".source = ./.cwmrc;
-    file.".config/picom/picom.conf".source = ./picom.conf;
     file.".Xresources".source = ./.Xresources;
     file.".gitconfig".source = ./.gitconfig;
     file.".xinitrc".source = ./.xinitrc;

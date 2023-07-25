@@ -9,6 +9,5 @@ fi
 xrdb ~/.Xresources
 
 exec ibus-daemon -drx &
-exec picom &
 exec hsetroot -solid 'alice blue' &
 exec cwm

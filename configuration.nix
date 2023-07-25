@@ -80,7 +80,6 @@
     gnuapl
     sbcl
     cwm
-    picom
     hsetroot
     virt-manager
     neofetch
