@@ -23,4 +23,4 @@ command term xst
 command lock slock
 
 autogroup 1 "xst-256color"
-autogroup 2 "emacs"
+autogroup 2 "Emacs"
