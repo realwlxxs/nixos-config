@@ -9,7 +9,7 @@
        tty
        :completion
        company
-       (ivy +fuzzy +icons +prescient)
+       (vertico +icons)
        :tools
        lookup
        (lsp +peek +eglot)
