@@ -12,7 +12,7 @@
        (ivy +fuzzy +icons +prescient)
        :tools
        lookup
-       (lsp +peek)
+       (lsp +peek +eglot)
        (magit +forge)
        :input
        chinese
