@@ -33,6 +33,7 @@
        :checkers
        syntax
        :emacs
+       (ibuffer +icons)
        (undo +tree)
        (dired +icons +ranger)
        tramp
