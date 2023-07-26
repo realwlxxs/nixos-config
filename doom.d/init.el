@@ -3,6 +3,8 @@
        (evil +everywhere)
        (format +onsave)
        lispy
+       :config
+       (default +bindings +smartparens)
        :os
        tty
        :completion
