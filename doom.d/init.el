@@ -38,6 +38,7 @@
        (dired +icons +ranger)
        tramp
        :ui
+       (window-select +numbers +switch-window)
        (modeline +light)
        (popup +defaults +all)
        vi-tilde-fringe
