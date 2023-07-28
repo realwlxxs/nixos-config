@@ -39,7 +39,7 @@
        tramp
        :ui
        (window-select +numbers +switch-window)
-       (modeline +light)
+       modeline
        (popup +defaults +all)
        vi-tilde-fringe
        nav-flash
