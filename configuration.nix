@@ -186,6 +186,8 @@
     '';
   };
 
+  services.minio.enable = true;
+
   networking.firewall.enable = false;
 
   nix.gc = {
