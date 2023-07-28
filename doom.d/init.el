@@ -39,7 +39,7 @@
        tramp
        :ui
        (modeline +light)
-       (popup +defaults)
+       (popup +defaults +all)
        vi-tilde-fringe
        nav-flash
        ophints)
