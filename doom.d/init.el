@@ -32,8 +32,6 @@
        (javascript +lsp)
        (gdscript +lsp)
        (cc +lsp)
-       :checkers
-       syntax
        :emacs
        (ibuffer +icons)
        (undo +tree)
