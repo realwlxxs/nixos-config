@@ -13,25 +13,26 @@
        company
        (vertico +icons)
        :tools
+       tree-sitter
        lookup
        (lsp +peek +eglot)
        (magit +forge)
        :lang
-       (json +lsp)
+       (json +lsp +tree-sitter)
        rest
-       (go +lsp)
-       (sh +lsp)
-       (haskell +lsp)
-       (erlang +lsp)
+       (go +lsp +tree-sitter)
+       (sh +lsp +tree-sitter)
+       (haskell +lsp +tree-sitter)
+       (erlang +lsp +tree-sitter)
        (latex +lsp)
        common-lisp
        emacs-lisp
-       nix
-       (python +lsp +pyright)
-       web
-       (javascript +lsp)
+       (nix +tree-sitter)
+       (python +lsp +tree-sitter +pyright)
+       (web +lsp +tree-sitter)
+       (javascript +lsp +tree-sitter)
        (gdscript +lsp)
-       (cc +lsp)
+       (cc +lsp +tree-sitter)
        :emacs
        (ibuffer +icons)
        (undo +tree)
