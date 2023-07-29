@@ -6,3 +6,5 @@
       doom-big-font (font-spec :family "Sarasa Mono Slab SC" :size 20))
 
 (setq auto-save-default t)
+
+(setq display-line-numbers-type 'relative)
