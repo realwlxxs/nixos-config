@@ -5,6 +5,8 @@
        lispy
        :config
        (default +bindings +smartparens)
+       :checkers
+       (syntax +flymake)
        :os
        tty
        :completion
