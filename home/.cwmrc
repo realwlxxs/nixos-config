@@ -25,6 +25,13 @@ command lock slock
 autogroup 1 "xst-256color"
 autogroup 2 "Emacs"
 
-bind-key 4-Return terminal
-bind-key 4-l      lock
-bind-key 4-slash  menu-window
+bind-key 4-t terminal
+bind-key 4-l lock
+bind-key 4-w menu-window
+bind-key 4-r menu-exec
+bind-key 4-s menu-ssh
+bind-key 4-x window-close
+
+bind-mouse 4-1 window-move
+bind-mouse 4-2 window-group
+bind-mouse 4-3 window-resize
