@@ -60,7 +60,8 @@
     gopls
     shellcheck
     nodePackages.bash-language-server
-    nodePackages_latest.typescript-language-server
+    nodePackages.typescript-language-server
+    nodePackages.prettier
     zeal
     libreoffice-qt
     xvkbd
