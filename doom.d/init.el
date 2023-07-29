@@ -11,7 +11,7 @@
        tty
        :completion
        company
-       (vertico +icons)
+       (ivy +fuzzy +icons +prescient)
        :tools
        tree-sitter
        lookup
