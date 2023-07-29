@@ -102,6 +102,7 @@
     ripgrep
     htop
     sqlite
+    pandoc
     texlive.combined.scheme-full
     (python3.withPackages (ps: with ps; [ pip black pyflakes isort ]))
     nodejs

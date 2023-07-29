@@ -25,6 +25,7 @@
        (haskell +lsp +tree-sitter)
        (erlang +lsp +tree-sitter)
        (latex +lsp +cdlatex +fold +latexmk)
+       (org +pandoc +present +pretty +roam2)
        common-lisp
        emacs-lisp
        (nix +tree-sitter)
