@@ -38,6 +38,7 @@
        (dired +icons +ranger)
        tramp
        :ui
+       (vc-gutter +diff-hl +pretty)
        indent-guides
        (window-select +numbers +switch-window)
        modeline
