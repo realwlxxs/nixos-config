@@ -38,6 +38,7 @@
        (dired +icons +ranger)
        tramp
        :ui
+       indent-guides
        (window-select +numbers +switch-window)
        modeline
        (popup +defaults +all)
