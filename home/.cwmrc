@@ -31,6 +31,7 @@ bind-key 4-w menu-window
 bind-key 4-r menu-exec
 bind-key 4-s menu-ssh
 bind-key 4-x window-close
+bind-key 4-a window-stick
 
 bind-mouse 4-1 window-move
 bind-mouse 4-2 window-group
