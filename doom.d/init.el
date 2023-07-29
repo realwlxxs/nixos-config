@@ -14,8 +14,6 @@
        lookup
        (lsp +peek +eglot)
        (magit +forge)
-       :input
-       chinese
        :lang
        (json +lsp)
        rest
