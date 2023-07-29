@@ -41,7 +41,6 @@
        (vc-gutter +diff-hl +pretty)
        indent-guides
        (window-select +numbers +switch-window)
-       modeline
        (popup +defaults +all)
        vi-tilde-fringe
        nav-flash
