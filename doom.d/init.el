@@ -29,7 +29,7 @@
        emacs-lisp
        nix
        (python +lsp +pyright)
-       web
+       (web +lsp)
        (javascript +lsp)
        (gdscript +lsp)
        (cc +lsp)
