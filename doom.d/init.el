@@ -13,27 +13,26 @@
        company
        (ivy +fuzzy +icons +prescient)
        :tools
-       tree-sitter
        lookup
        (lsp +peek +eglot)
        (magit +forge)
        :lang
-       (json +lsp +tree-sitter)
+       (json +lsp)
        rest
-       (go +lsp +tree-sitter)
-       (sh +lsp +tree-sitter)
-       (haskell +lsp +tree-sitter)
-       (erlang +lsp +tree-sitter)
        (latex +lsp +cdlatex +fold +latexmk)
        (org +pandoc +present +pretty +roam2)
+       (go +lsp)
+       (sh +lsp)
+       (haskell +lsp)
+       (erlang +lsp)
        common-lisp
        emacs-lisp
-       (nix +tree-sitter)
-       (python +lsp +tree-sitter +pyright)
-       (web +lsp +tree-sitter)
-       (javascript +lsp +tree-sitter)
+       nix
+       (python +lsp +pyright)
+       web
+       (javascript +lsp)
        (gdscript +lsp)
-       (cc +lsp +tree-sitter)
+       (cc +lsp)
        :emacs
        (ibuffer +icons)
        (undo +tree)
