@@ -14,7 +14,7 @@
        (ivy +fuzzy +icons +prescient)
        :tools
        lookup
-       (lsp +peek +eglot)
+       (lsp +peek)
        (magit +forge)
        :lang
        (json +lsp)
