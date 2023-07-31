@@ -9,6 +9,8 @@
        syntax
        :os
        tty
+       :term
+       eshell
        :completion
        company
        (ivy +fuzzy +icons +prescient)
