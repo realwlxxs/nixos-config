@@ -5,6 +5,8 @@
        lispy
        :config
        (default +bindings +smartparens)
+       :input
+       chinese
        :checkers
        syntax
        :os
