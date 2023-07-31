@@ -6,7 +6,7 @@
        :config
        (default +bindings +smartparens)
        :checkers
-       (syntax +flymake)
+       syntax
        :os
        tty
        :completion
