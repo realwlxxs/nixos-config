@@ -7,16 +7,6 @@ sticky yes
 unbind-key   all
 unbind-mouse all
 
-color activeborder   "#f5bde6"
-color inactiveborder "#c6a0f6"
-color urgencyborder  "#48c6ff"
-color groupborder    "#215d9c"
-color ungroupborder  "#ff005b"
-color menubg         "#c6a0f6"
-color menufg         "#f5bde6"
-color selfont        "#282a36"
-color font           "#f8f8f2"
-
 bind-key XF86AudioRaiseVolume  "pactl set-sink-volume @DEFAULT_SINK@ +5%"
 bind-key XF86AudioLowerVolume  "pactl set-sink-volume @DEFAULT_SINK@ -5%"
 bind-key XF86MonBrightnessDown "light -U 5"
