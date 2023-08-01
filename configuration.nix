@@ -144,6 +144,7 @@
     ohMyZsh = {
       enable = true;
       theme = "robbyrussell";
+      plugins = [ "vi-mode" ];
     };
   };
   environment.shells = with pkgs; [ zsh ];
