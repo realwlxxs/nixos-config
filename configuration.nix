@@ -55,6 +55,7 @@
   };
 
   environment.systemPackages = with pkgs; [
+    multitail
     caddy
     go
     gopls
