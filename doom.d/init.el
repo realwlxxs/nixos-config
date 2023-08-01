@@ -42,6 +42,7 @@
        (undo +tree)
        (dired +icons +ranger)
        :ui
+       (ligatures +extra)
        (vc-gutter +diff-hl +pretty)
        indent-guides
        (window-select +numbers +switch-window)
