@@ -55,7 +55,6 @@
   };
 
   environment.systemPackages = with pkgs; [
-    multitail
     caddy
     go
     gopls
@@ -65,7 +64,6 @@
     nodePackages.prettier
     zeal
     libreoffice-qt
-    xvkbd
     swiProlog
     ghc
     cabal-install
@@ -76,10 +74,7 @@
     gzdoom
     enyo-launcher
     xst
-    file
-    yt-dlp
     cmus
-    cava
     gnuapl
     sbcl
     cwm
